@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: linear-gradient(to bottom, #b207dd80, #19057465);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+nav {
+  background-color: #23024d9f;
+  color: #ffffff52;
+  text-align: center;
+  padding: 10px;
+}
+nav a {
+  color: #e2e2e2;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.logoimage{
+  width: 250px;
+  height: 75px;
+}
+
+.carousel-item {
+  background-color: #19057465;
+  color: #141414;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.carousel-item h1 {
+  font-size: 3rem;
+  margin: 10px 0 30px 0;
+
+}
+.takebutton-style {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #2b2a2aad;
+  color: #290133;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.hero-image {
+  max-width: 45%;
+  height: 15%;
+  align-items: center;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.accordion-item {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.accordion-title {
+  display: block;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.accordion-content {
+  padding: 10px;
+}
+.accordion-checkbox {
+  display: none;
+}
+.about-cruise,
+.about-contact,
+.about-safety {
+  max-width: 20%;
+  height: auto;
+}
+
+.trip-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.trip-item {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.trip-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.trip-item h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.trip-item p {
+  margin: 10px 0;
+}
+
+.details-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
