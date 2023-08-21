@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div>
+          <img src="assets/saillogo.jpg" alt="" class="logoimage">
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="index.html">About</a>
+          <a href="index.html">Services</a>
+          <a href="index.html">Contact</a>
+        </nav>
+      </header>
+
+      <section id="filter">
+        <label for="price-filter">Sort by Price:</label>
+        <select id="price-filter">
+            <option value="low-to-high">Low to High</option>
+            <option value="high-to-low">High to Low</option>
+        </select>
+    
+        <label for="destination-filter">Filter by Destination:</label>
+        <select id="destination-filter">
+            <option value="all">All Destinations</option>
+            <option value="Maldives">Maldives</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Tokyo">Los Angeles</option>
+            <option value="Tokyo">Cape Town</option>
+        </select>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section id="cruise-list">
+        <div class="cruise-container">
+        <div class="cruise-card">
+            <img src="assets/maldives.png" alt="Cruise 1">
+            <h2>Maldives</h2>
+            <p>Destination: Maldives to Cape Town</p>
+            <p>Price: R5000</p>
+            <div class="button-container">
+                <button class="book-button">Book Now</button>
+                <button class="info-button">Info</button>
+                <div class="info-card" style="display: none;">
+                    <p>Destination: Maldives</p>
+                    <p>Weather: Sunny</p>
+                    <p>Trip Duration: 4 days</p>
+                    <p>Weather: </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+        
+        <div class="cruise-card">
+            <img src="assets/borabora.jpg" alt="Cruise 2">
+            <h2>Los Angeles</h2>
+            <p>Destination: Los Angeles to Carribean </p>
+            <p>Price: R7000</p>
+            <div class="button-container">
+                <button class="book-button">Book Now</button>
+                <button class="info-button">Info</button>
+                <div class="info-card" style="display: none;">
+                    <p>Destination: Miami</p>
+                    <p>Weather: Sunny</p>
+                    <p>Trip Duration: 5 days</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="cruise-card">
+            <img src="assets/paradise-island.jpg" alt="Cruise 2">
+            <h2>Cape Town</h2>
+            <p>Destination: Cape Town to Caribbean</p>
+            <p>Price: R7500</p>
+            <div class="button-container">
+                <button class="book-button">Book Now</button>
+                <button class="info-button">Info</button>
+                <div class="info-card" style="display: none;">
+                    <p>Destination: Miami</p>
+                    <p>Weather: Sunny</p>
+                    <p>Trip Duration: 6 days</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="cruise-card">
+            <img src="assets/ventureislands.jpg" alt="Cruise 2">
+            <h2>Tokyo</h2>
+            <p>Destination: Tokyo to Caribbean</p>
+            <p>Price: R8000</p>
+            <div class="button-container">
+                <button class="book-button">Book Now</button>
+                <button class="info-button">Info</button>
+                <div class="info-card" style="display: none;">
+                    <p>Destination: Miami</p>
+                    <p>Weather: Sunny</p>
+                    <p>Trip Duration: 7 days</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="cruise-card">
+            <img src="assets/maldives.png" alt="Cruise 2">
+            <h2>Maldives</h2>
+            <p>Destination: Maldives to California</p>
+            <p>Price: R6500</p>
+            <div class="button-container">
+                <button class="book-button">Book Now</button>
+                <button class="info-button">Info</button>
+                <div class="info-card" style="display: none;">
+                    <p>Destination: Miami</p>
+                    <p>Weather: Sunny</p>
+                    <p>Trip Duration: 4 days</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

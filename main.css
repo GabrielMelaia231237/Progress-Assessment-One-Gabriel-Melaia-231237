@@ -139,3 +139,106 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
 }
+
+.cruise-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.cruise-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cruise-card h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.cruise-card p {
+  margin: 5px 0;
+}
+
+.cruise-card .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cruise-card .button-container button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cruise-card .button-container button:hover {
+  background-color: #555;
+}
+
+.cruise-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-card {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1; 
+}
+
+.info-button:hover + .info-card {
+  display: block; 
+}
+
+#filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+select:hover,
+select:focus {
+  border-color: #555;
+}
+
+select option {
+  background-color: #fff;
+  color: #333;
+}
