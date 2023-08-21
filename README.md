@@ -13,3 +13,5 @@ This is a progress mark of my website called SailSelect for Open Window.
 
 This project is licensed under the [Open Window](LICENSE).
 
+## Screenshots of the browse page will be under assets
+
